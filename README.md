@@ -1,0 +1,5 @@
+This is the final report for a bioreactor control system that my team and I built. The situation invloved developing a small scale prototype of a bioreactor situated in Uganda that tests and develops BCG (Bacillus Calmette–Guérin), the vaccination for Tuberculosis. 
+
+The process of developing this vaccination involves maintaining precise temperature, pH and stirring. Hence, we used an ESP32 that connects the cloud to a STM32 nucleo board which was further connected to the three subsystems. The subsystems contained sensors that read the current data and then through the connection established, the system checked if the current data was same as the required data which can be set from the cloud (ThingsBoard). Depending on the difference in value, the system changed the power provided to the heater/rpm of the stirrer's motor/acid or alkali added to the mixture.  
+
+The report contains further information on the entire bioreactor and its subsystems. It also contains snippets from the code that we used to deliver a prototype.
